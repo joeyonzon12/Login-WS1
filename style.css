@@ -33,7 +33,7 @@ body {
     display: block;
 }
 .login-container{
-    background-image:url(OIP.webp) ;
+    background: rgba(146, 204, 236, 0.9);
     padding: 30px;
     width: 350px;
     border-radius: 12px;
@@ -44,6 +44,13 @@ body {
     text-align: center;
     margin-bottom: 20px;
     color: #333;
+}
+
+.form-error{
+    color: #b91c1c;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 .login-form input{
