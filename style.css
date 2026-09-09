@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Background image */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("OIP.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+.login-container{
+    background: rgba(146, 204, 236, 0.9);
+    padding: 30px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.login-form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-error{
+    color: #b91c1c;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.login-form input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #0473f2;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-form input:focus{
+    border-color: #4facfe;
+    outline: none;
+}
+
+.login-form button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-form button:hover{
+    background: #008cff;
+}
+
+.login-form p{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-form a{
+    color: #4facfe;
+    text-decoration: none;
+}
+
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.dashboard-page {
+    color: #223046;
+}
+
+.dashboard-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
